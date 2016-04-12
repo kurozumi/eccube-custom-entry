@@ -1,0 +1,4 @@
+name: 新規会員登録拡張プラグイン
+code: CustomEntry
+version: 1.0.0
+event: Event
