@@ -1,2 +1,4 @@
 front.entry.index.initialize:
- - [onFormInitializeEntry, NORMAL]
+ - [onFrontEntryInit, NORMAL]
+admin.customer.edit.index.initialize:
+ - [onAdminCustomerEditInit, NORMAL]

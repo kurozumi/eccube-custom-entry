@@ -16,4 +16,12 @@ class Event
         ));
     }
 
+    public function onAdminCustomerEditInit(EventArgs $event)
+    {
+        $builder = $event->getArgument('builder');
+        $builder->add('tel', 'tel', array(
+            'required' => false
+        ));
+    }
+
 }
