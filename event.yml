@@ -1,4 +1,6 @@
 front.entry.index.initialize:
- - [onFrontEntryInit, NORMAL]
+ - [onFormFrontEntryInit, NORMAL]
+front.mypage.change.index.initialize:
+ - [onFormFrontMypageChangeInit, NORMAL]
 admin.customer.edit.index.initialize:
- - [onAdminCustomerEditInit, NORMAL]
+ - [onFormAdminCustomerEditInit, NORMAL]
